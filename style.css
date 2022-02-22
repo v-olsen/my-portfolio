@@ -37,23 +37,23 @@ header::after {
     color:white;
 }
 
-.sign-strap {
+.name-strap {
     padding-left: 20px;
 }
 
 nav {
     float:right;
 }
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style:none;
-    
-}
 
-nav li {
+
+ul {
     float:right;
     margin-left:90px;
-    padding-top:25px;
-    padding-right:20px;
+    padding-top:5px;
+    padding-right:50px;
+    list-style:none;
+}
+li {
+    display:inline;
+    padding:20px;
 }
