@@ -1,24 +1,38 @@
 body {
   margin: 0;
-  background-color: blanchedalmond;
+  background-color: black;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: 100;
   position: center;
 }
 .wrapper {
-  margin: 0 auto;
+  margin: 20px 20px 20px 20px;
   width: 1200px;
+}
+
+.index-section {
+  margin: 200px 50% 0 70%;
+  width: 50%;
+  padding: 20px;
+}
+
+.contact-section {
+  margin: 200px 0 0 50px;
+}
+
+.about-section {
+  margin: 200px 0 0 50px;
 }
 
 h1,
 p {
-  color: black;
+  color: white;
   word-wrap: break-word;
 }
 
 header {
-  background-color: blanchedalmond;
+  background-color: black;
   height: 60px;
 }
 
@@ -27,10 +41,22 @@ header::after {
   display: table;
   clear: both;
 }
+a {
+  text-decoration: none;
+}
 
-.navigation-bar {
-  width: 80%;
-  margin: 0 auto;
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: white;
+  border-bottom: 3px solid white;
+}
+a:active {
+  color: white;
 }
 
 .container {
