@@ -14,7 +14,9 @@ body {
 h1,
 p {
   color: black;
+  word-wrap: break-word;
 }
+
 header {
   background-color: blanchedalmond;
   height: 60px;
