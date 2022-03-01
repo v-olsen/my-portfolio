@@ -18,6 +18,12 @@ h1,
 p {
   color: white;
   word-wrap: break-word;
+  font-size: 1.2em;
+}
+hr {
+  width: 50%;
+  margin: 5% 40% 5% 20%;
+  color: white;
 }
 
 /*---------------------------------------HEADER STYLE BELOW---------------------------*/
@@ -36,20 +42,20 @@ header {
 }
 /*---------------------------------------LINK STYLE BELOW---------------------------*/
 
-a:link {
+li a:link {
   color: white;
 }
 
-a:visited {
+li a:visited {
   color: white;
 }
 
-a:hover {
+li a:hover {
   color: grey;
   border-bottom: white 1px solid;
 }
 
-a:active {
+li a:active {
   color: white;
 }
 
@@ -65,6 +71,9 @@ nav {
 nav ul {
   display: flex;
   gap: 1rem;
+}
+li {
+  list-style: none;
 }
 
 ul a {
@@ -83,4 +92,27 @@ ul a {
 .index-section {
   width: 40vw;
   padding: 20px;
+}
+
+/*---------------------------------------FOOTER STYLE BELOW---------------------------*/
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+.linkedin-icon {
+  width: 10%;
+  color: red;
+  margin: 0 0 0 20%;
+}
+.section-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 60%;
+  margin: 0 0 2% 0;
+}
+.footer-p {
+  margin: 0 0 5%;
 }
