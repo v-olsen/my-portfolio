@@ -52,6 +52,10 @@ a:active {
   color: white;
 }
 
+.current {
+  border-bottom: white 1px solid;
+}
+
 nav {
   display: flex;
   justify-content: right;
