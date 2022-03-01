@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   margin: 0;
   background-color: black;
@@ -5,24 +11,7 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: 100;
   position: center;
-}
-.wrapper {
-  margin: 20px 20px 20px 20px;
-  width: 1200px;
-}
-
-.index-section {
-  margin: 200px 50% 0 70%;
-  width: 50%;
-  padding: 20px;
-}
-
-.contact-section {
-  margin: 200px 0 0 50px;
-}
-
-.about-section {
-  margin: 200px 0 0 50px;
+  width: 100vw;
 }
 
 h1,
@@ -31,57 +20,62 @@ p {
   word-wrap: break-word;
 }
 
+/*---------------------------------------HEADER STYLE BELOW---------------------------*/
+
 header {
-  background-color: black;
-  height: 60px;
+  width: 100vw;
+  height: 4%;
 }
 
-header::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-a {
-  text-decoration: none;
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 50%;
 }
 
 a:link {
   color: white;
 }
+
 a:visited {
   color: white;
 }
+
 a:hover {
   color: white;
-  border-bottom: 3px solid white;
+  border-bottom: white 1px solid;
 }
+
 a:active {
   color: white;
 }
 
-.container {
-  float: left;
-  color: white;
-}
-
-.name-strap {
-  padding-left: 20px;
-}
-
 nav {
-  float: right;
+  display: flex;
+  justify-content: right;
 }
 
-ul {
-  float: right;
-  margin-left: 90px;
-  padding-top: 5px;
-  padding-right: 50px;
-  list-style: none;
+nav ul {
+  display: flex;
+  gap: 1rem;
 }
-li {
-  display: inline;
+
+ul a {
+  text-decoration: none;
+}
+
+/*---------------------------------------PAGE CONTENT STYLE BELOW---------------------------*/
+
+.wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-section {
+  width: 40vw;
   padding: 20px;
 }
-
-/*--------------------------About Page---------------------*/
