@@ -7,17 +7,23 @@
 body {
   margin: 0;
   background-color: #1e5128;
-  font-family: "TISA", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Arvo", serif;
   font-weight: 100;
   position: center;
-  width: 100vw;
 }
-
-h1,
+header h1 {
+  color: white;
+  display: block;
+  text-align: center;
+}
 p {
   color: white;
   word-wrap: break-word;
+  font-size: 14px;
+}
+h1 {
   font-size: 16px;
+  color: white;
 }
 hr {
   width: 50%;
@@ -28,14 +34,15 @@ hr {
 /*---------------------------------------HEADER STYLE BELOW---------------------------*/
 
 header {
-  width: 100vw;
-  height: 4%;
+  height: 15vh;
   display: flex;
-  align-items: center;
   background-color: #191a19;
-  justify-content: space-around;
+  justify-content: center;
 }
 /*
+  align-items: center;
+  justify-content: space-around;
+
 .container-header {
   display: flex;
   align-items: center;
@@ -44,11 +51,7 @@ header {
   height: 50%;
 }
 */
-.header-name-strap {
-  justify-content: right;
-  margin-left: 15em;
-  display: flex;
-}
+
 /*---------------------------------------LINK STYLE BELOW---------------------------*/
 
 li a:link {
@@ -73,14 +76,14 @@ li a:active {
 }
 
 nav {
-  display: flex;
-  justify-content: right;
+  display: block;
+  justify-content: center;
 }
 
 nav ul {
   display: flex;
-  gap: 1rem;
-  margin-right: 25em;
+  gap: 4rem;
+  justify-content: center;
 }
 li {
   list-style: none;
@@ -98,42 +101,53 @@ ul a {
 /*---------------------------------------PAGE CONTENT STYLE BELOW---------------------------*/
 
 .wrapper {
-  width: 100vw;
-  height: 1000px;
+  width: 90vw;
+  height: 500px;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .index-section {
-  width: 40vw;
+  margin: 12% 0 0 0;
+  width: 50vw;
   padding: 20px;
   height: 40%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+article {
+  margin: 1vh 0 0 0;
+}
+article h1 {
+  text-align: center;
 }
 
 /*---------------------------------------FOOTER STYLE BELOW---------------------------*/
 footer {
   width: 100vw;
-  height: 4%;
+  height: 9vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #d8e9a8;
+  position: fixed;
+  bottom: 5px;
+  font-size: 0.5em;
 }
 .footer-name-strap {
-  justify-content: right;
-  margin-left: 9em;
   display: flex;
   width: 10em;
 }
 
 .linkedin-icon {
-  width: 1em;
+  width: 1.5em;
   color: red;
   display: flex;
   align-items: right;
 }
 .github-icon {
-  width: 1.5em;
+  width: 2em;
   display: flex;
 }
 
@@ -142,6 +156,7 @@ footer {
   align-items: right;
   margin-left: 20em;
   align-items: center;
+  gap: 2em;
 }
 
 /*---------------------------------------CONTACT PAGE STYLE BELOW---------------------------*/
