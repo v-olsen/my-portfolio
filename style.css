@@ -89,7 +89,7 @@ ul a {
 /*---------------------------------------LINK STYLE BELOW---------------------------*/
 
 /*****************LINK BEHAVIOR*****************/
-/* link peusoclass is used here to stylize the list items in the navbar, as well as any other
+/* a link peusoclass is used here to stylize the list items in the navbar, as well as any other
     links that can be stylized as such. The .current class selector is used to stylize the navbar
     list item, so it underlines the page the user is currently on. */
 
@@ -126,10 +126,10 @@ li a:active {
 
 .index-section,
 .about-section {
-  margin: 8% 0 0 0;
+  margin: 5% 0 0 0;
   width: 50vw;
   padding: 20px;
-  height: 50vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   color: white;
@@ -137,6 +137,7 @@ li a:active {
 article {
   margin: 1vh 0 0 0;
   justify-content: center;
+  height: 60vh;
 }
 article h1 {
   text-align: center;
@@ -147,6 +148,14 @@ about-list ul li {
   text-align: center;
   line-height: 200%;
   letter-spacing: 1.1px;
+}
+
+article img {
+  border-radius: 50%;
+  align-items: center;
+  margin: auto;
+  display: block;
+  margin-bottom: 5%;
 }
 
 /*---------------------------------------FOOTER STYLE BELOW---------------------------*/
