@@ -1,5 +1,8 @@
 /*---------------------------------------GLOBAL STYLE BELOW---------------------------*/
 
+/* A selector that selects all elements, and the body selector selects the body of the html*/
+/* box-sizing is set to border-box so that it accounts for the padding and border to any height
+a and width values.*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -15,6 +18,8 @@ body {
 }
 
 /*---------------------------------------FONT STYLINGS BELOW---------------------------*/
+/* Below are general font styles. Descendent selectors are used to select certain tags, such as the
+  h1 element inside the footer container. */
 
 header h1 {
   color: white;
@@ -52,6 +57,7 @@ h3 {
 }
 
 /*---------------------------------------HEADER STYLE BELOW---------------------------*/
+/* Below are the header styles. The flex display is used to orientate the items. */
 
 header {
   height: 15vh;
@@ -83,6 +89,9 @@ ul a {
 /*---------------------------------------LINK STYLE BELOW---------------------------*/
 
 /*****************LINK BEHAVIOR*****************/
+/* link peusoclass is used here to stylize the list items in the navbar, as well as any other
+    links that can be stylized as such. The .current class selector is used to stylize the navbar
+    list item, so it underlines the page the user is currently on. */
 
 li a:link {
   color: white;
@@ -106,6 +115,7 @@ li a:active {
 }
 
 /*---------------------------------------PAGE CONTENT STYLE BELOW---------------------------*/
+/*This section stylizes the containers that hold the section and articles, as well as the headers*/
 
 .wrapper {
   width: 100vw;
@@ -140,6 +150,7 @@ about-list ul li {
 }
 
 /*---------------------------------------FOOTER STYLE BELOW---------------------------*/
+/* Footer, footer name (h3), footer link icons, as well as an icon container are stylized below*/
 footer {
   width: 100vw;
   height: 9vh;
@@ -177,16 +188,19 @@ footer h3 {
 }
 
 /*---------------------------------------CONTACT PAGE STYLE BELOW---------------------------*/
+/* This stylizes the ordered list for the contacts for the contact page */
 
 .contact-list li {
   margin-bottom: 4%;
-  text-align: center;
+  text-align: left;
   width: 10%;
   margin: auto;
   margin-top: 5%;
 }
 
 /*---------------------------------------ABOUT PAGE STYLE BELOW---------------------------*/
+/* This stylizes the unordered list for the about me information for the about page */
+/* Additionally there is a link within the ordered list that must be stylized so it sticks out */
 
 .about-list li {
   margin: 0 0 5% 0;
